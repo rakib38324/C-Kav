@@ -13,8 +13,8 @@ const Header: React.FC<TProps> = ({ setOpen }) => {
   ];
 
   return (
-    <div className=" bg-[#374041] shadow-lg  border-b border-blue-600  py-[1rem] sticky top-0 w-full z-30 ">
-      <div className="relative max-w-screen-xl mx-auto px-5 lg:px-0 flex items-center justify-between">
+    <div className="bg-[#374041] shadow-lg  border-b border-blue-600  py-[1rem] sticky top-0 w-full z-30 ">
+      <div className="max-w-screen-xl mx-auto relative px-5 lg:px-0 flex items-center justify-between">
         <div className="flex gap-20">
           <Link href="/">
             <svg

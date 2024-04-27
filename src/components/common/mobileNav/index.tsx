@@ -1,19 +1,14 @@
 import Link from "next/link";
-import Image from "next/image";
-import logoWhite from "../../../assets/logo podcast white.png";
-import logoColor from "../../../assets/logo podcast color .png";
 import { useState } from "react";
-import { FaAngleDoubleLeft, FaRegUserCircle } from "react-icons/fa";
+import { FaAngleDoubleLeft } from "react-icons/fa";
 import { TProps } from "@/components/header";
 
 const MobileNav: React.FC<TProps> = ({ setOpen }) => {
-  const [subNavDrawer, setSubNavDrawer] = useState(false);
-
   const navigation = [
     { label: "home", url: "/" },
     { label: "About us", url: "/" },
     { label: "Features", url: "/" },
-    { label: 'Pricing', url: '/' },
+    { label: "Pricing", url: "/" },
     { label: "contact us", url: "/" },
   ];
 
@@ -63,17 +58,18 @@ const MobileNav: React.FC<TProps> = ({ setOpen }) => {
 
         <ul className="flex flex-col gap-[12px] ">
           {navigation?.map((item) => (
-            <li key={item.label} className="relative group text-white uppercase">
-              {item?.label === "Services" ? (
-                <p onClick={() => setSubNavDrawer(true)}>{item.label}</p>
-              ) : (
-                <Link href={item?.url}>{item.label}</Link>
-              )}
+            <li
+              key={item.label}
+              className="relative group text-white uppercase"
+            >
+              <Link href={item?.url}>{item.label}</Link>
             </li>
           ))}
 
           <li className="mt-5">
-          <button className="lg:hidden px-2 py-2 bg-white text-xs rounded-lg font-semibold font-[#Roboto]">Book Your Appointment</button>
+            <button className="lg:hidden px-2 py-2 bg-white text-xs rounded-lg font-semibold font-[#Roboto]">
+              Book Your Appointment
+            </button>
           </li>
         </ul>
       </nav>

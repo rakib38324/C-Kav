@@ -2,6 +2,7 @@ import React, { ReactNode, useState } from "react";
 import Head from "next/head";
 import Header from "@/components/header/header";
 import MobileNav from "../mobileNav";
+import Footer from "../footer";
 
 type TLayoutProps = {
   children: ReactNode;
@@ -26,7 +27,7 @@ const Layout: React.FC<TLayoutProps> = ({ children, pageTitle }) => {
         {children}
         {open && <MobileNav setOpen={setOpen} />}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
