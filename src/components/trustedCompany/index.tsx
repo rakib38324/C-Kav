@@ -38,7 +38,7 @@ const TrusTedCompany = () => {
               />
 
               <div className="w-4/5 flex flex-col justify-center items-center  mx-auto mt-8">
-                <SmallButton text="Start your trial now" BColor="black" TColor="black" />
+                <SmallButton text="Start your trial now" BColor="[#374041]" TColor="black" />
                 <div className="flex justify-center hover:border rounded-md px-4 py-2 gap-4 mt-5 cursor-pointer">
                   <FaRegPlayCircle className="mt-2 text-sm my-auto" />
                   <p className="text-sm font-[#Roboto] font-semibold mt-1">
