@@ -1,7 +1,7 @@
 const Award = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-[150px]">
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-3 gap-5 mb-20">
         <hr className="mt-5" />
         <p className="text-3xl font-medium font-[barlow-condensed] my-auto">
           We are proud to winner of the

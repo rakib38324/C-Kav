@@ -5,6 +5,7 @@ import TrusTedCompany from "@/components/trustedCompany";
 import ServiceSection from "@/components/serviceSection";
 import SoftwareQuality from "@/components/softwareQuality";
 import Award from "@/components/award";
+import Features from "@/components/feature";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
         <ServiceSection />
         <SoftwareQuality />
         <Award />
+        <Features />
       </Layout>
     </main>
   );
