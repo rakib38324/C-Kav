@@ -10,7 +10,7 @@ const TrusTedCompany = () => {
   return (
     <div className="relative max-w-[1370px] mx-auto mt-[350px] bg-[#374041] h-[1083px] rounded-[40px]">
       <div>
-        <div className="text-white absolute -top-[350px] left-[100px] w-[470px] h-[938px] bg-[#75C9B0] rounded-b-[40px]">
+        <div className="text-white absolute -top-[350px] left-[100px] w-[470px] h-[938px] bg-[#75C9B0] rounded-b-[40px] z-10">
           <p className=" text-[45px] font-medium text-center font-[barlow-condensed] mt-[100px] px-[50px] leading-[52px] ">
             All in one your powerful <br /> financial business solutions
           </p>
@@ -54,7 +54,7 @@ const TrusTedCompany = () => {
             aliquam vel sagittis.
           </p>
         </div>
-        <div className="absolute -top-[250px] right-[100px] w-[670px] h-[500px]  bg-gray-100 rounded-[40px]">
+        <div className="absolute -top-[250px] right-[100px] w-[670px] h-[500px]  bg-gray-100 rounded-[40px] ">
           <Image
             className="w-full h-full rounded-[40px]"
             src={pic}

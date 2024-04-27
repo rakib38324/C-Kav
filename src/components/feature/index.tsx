@@ -62,7 +62,7 @@ const Features = () => {
               />
             </div>
 
-            <div className="absolute -bottom-40 -right-40 bg-gray-200 w-[400px] h-[252px] rounded-[20px] shadow-xl">
+            <div className="absolute -bottom-40 -right-28 bg-gray-200 w-[400px] h-[252px] rounded-[20px] shadow-xl">
               <Image
                 className="w-full h-full rounded-[20px]"
                 src={feature2}
@@ -70,7 +70,7 @@ const Features = () => {
               />
             </div>
 
-            <div className="absolute top-[470px] -right-1 size-[80px] rounded-full border-4 border-white shadow-xl">
+            <div className="absolute top-[470px] right-10 size-[80px] rounded-full border-4 border-white shadow-xl">
               <Image
                 className="w-full h-full rounded-[20px]"
                 src={circle1}
