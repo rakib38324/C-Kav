@@ -1,16 +1,17 @@
 export type TButton = {
     text: string;
-    BColor: string
+    BColor: string;
+    TColor: string
 }
 
-const SmallButton: React.FC<TButton> = ({text, BColor}) => {
+const BigButton: React.FC<TButton> = ({text, BColor, TColor}) => {
     return (
         <div>
-            <button className={`text-lg font-semibold font-[#Roboto] bg-${BColor} px-[35px] py-[18px] rounded-lg`}>
+            <button className={`text-lg font-semibold font-[#Roboto] text-${TColor} bg-${BColor} px-[35px] py-[18px] rounded-lg`}>
                 {text}
             </button>
         </div>
     );
 };
 
-export default SmallButton;
+export default BigButton;

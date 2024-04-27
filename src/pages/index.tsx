@@ -6,6 +6,8 @@ import ServiceSection from "@/components/serviceSection";
 import SoftwareQuality from "@/components/softwareQuality";
 import Award from "@/components/award";
 import Features from "@/components/feature";
+import VideoPresentation from "@/components/videoPresentation";
+import Prices from "@/components/prices";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +20,8 @@ export default function Home() {
         <SoftwareQuality />
         <Award />
         <Features />
+        <VideoPresentation />
+        <Prices />
       </Layout>
     </main>
   );

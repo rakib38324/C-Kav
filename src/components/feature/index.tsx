@@ -3,7 +3,7 @@ import feature from "../../../images/feature.png";
 import feature3 from "../../../images/feature2.webp";
 import feature2 from "../../../images/feature3.png";
 import circle1 from "../../../images/circle1.png";
-import SmallButton from "../common/button/bigButton";
+import SmallButton from "../common/button/smallButton";
 
 const Features = () => {
   return (
@@ -78,7 +78,7 @@ const Features = () => {
               />
             </div>
 
-            <div className="absolute -bottom-80 z-50 size-[252px] bg-gray-200 rounded-[20px] shadow-xl">
+            <div className="absolute -bottom-80  size-[252px] bg-gray-200 rounded-[20px] shadow-xl">
               <Image
                 className="w-full h-full rounded-[20px]"
                 src={feature3}
@@ -160,7 +160,7 @@ const Features = () => {
 
           <hr className="my-10" />
 
-          <SmallButton text="Learn more..."  BColor="[#75C9B0]" />
+          <SmallButton text="Learn more..."  BColor="[#75C9B0]" TColor="black" />
         </div>
       </div>
     </div>

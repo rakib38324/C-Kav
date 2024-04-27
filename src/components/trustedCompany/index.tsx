@@ -1,10 +1,10 @@
 import { FaRegPlayCircle } from "react-icons/fa";
-import SmallButton from "../common/button/bigButton";
 import Image from "next/image";
 import pic from "../../../images/business.jpg";
 import pic1 from "../../../images/business 1.jpg";
 import pic3 from "../../../images/business 3.jpg";
 import pic2 from "../../../images/business 2.jpg";
+import SmallButton from "../common/button/smallButton";
 
 const TrusTedCompany = () => {
   return (
@@ -38,7 +38,7 @@ const TrusTedCompany = () => {
               />
 
               <div className="w-4/5 mx-auto mt-8">
-                <SmallButton text="Start your trial now" BColor="black" />
+                <SmallButton text="Start your trial now" BColor="black" TColor="black" />
                 <div className="flex justify-center gap-4 mt-5 cursor-pointer">
                   <FaRegPlayCircle className="mt-2 text-sm my-auto" />
                   <p className="text-sm font-[#Roboto] font-semibold mt-1">

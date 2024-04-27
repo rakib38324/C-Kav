@@ -1,6 +1,6 @@
 import Image from "next/image";
 import sft from "../../../images/software.png";
-import SmallButton from "../common/button/bigButton";
+import SmallButton from "../common/button/smallButton";
 
 const SoftwareQuality = () => {
   return (
@@ -361,7 +361,7 @@ const SoftwareQuality = () => {
               </div>
             </div>
             <div className="ml-10">
-              <SmallButton text="Get your FREE trial" BColor="[#FF9C55]" />
+              <SmallButton text="Get your FREE trial" BColor="[#FF9C55]" TColor="black" />
             </div>
           </div>
         </div>
