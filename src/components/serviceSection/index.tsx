@@ -1,7 +1,7 @@
 const ServiceSection = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-[75px] border-b ">
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 gap-8">
         <div className="grid grid-cols-3">
           <div className="col-span-1">
             {" "}

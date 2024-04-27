@@ -8,6 +8,8 @@ import Award from "@/components/award";
 import Features from "@/components/feature";
 import VideoPresentation from "@/components/videoPresentation";
 import Prices from "@/components/prices";
+import BusinessDetails from "@/components/businessDetails";
+import FinancialManagement from "@/components/financialManagement";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +24,8 @@ export default function Home() {
         <Features />
         <VideoPresentation />
         <Prices />
+        <BusinessDetails />
+        <FinancialManagement />
       </Layout>
     </main>
   );
